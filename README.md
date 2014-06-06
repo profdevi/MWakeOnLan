@@ -12,6 +12,7 @@ On Windows with Visual Studio
 
 Run the commands.
 >  cd src
+>
 >  nmake -f makefile.windows
 
 
@@ -20,6 +21,7 @@ On Linux
 
 Run the commands
 >  cd src
+>
 >  make -f makefile.unix
 
 
