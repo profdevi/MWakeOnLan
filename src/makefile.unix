@@ -1,0 +1,28 @@
+#v1.0 copyright Comine.com 20120119R2200
+#
+#
+OUTPUT=MWakeOnLan
+CC=g++
+COMPARGS= # -D_DEBUG  -g 
+LINKARGS= #-lgsl -lgslcblas
+
+
+####################################################
+all :
+	$(CC) $(COMPARGS) $(LINKARGS) *.cpp -o $(OUTPUT)
+	
+
+
+####################################################
+clean:
+	-rm -f *.o
+	-rm -f $(OUTPUT)
+
+
+
+####################################################
+cleanall:
+	-rm -f *.o
+	-rm -f $(OUTPUT)
+
+
