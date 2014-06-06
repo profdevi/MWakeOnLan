@@ -1,0 +1,23 @@
+
+   usage:  MWakeOnLan <etheraddress|computer name>+ [-l|-?]
+           v1.3 copyright Comine.com
+
+   Program will send wake on lan packet to machine on ethernet 
+   using the ethernet address.  A configuratin file MWakeOnLan.ini
+   can be used to hold name/ethernet values for easy command line 
+   execution.
+
+   The configuration file consists of name=etheraddress pairs.  
+   A # marker is used for comment lines
+
+   Flags:
+            -l | List All Name/Value Pairs
+
+   Example 1: 
+
+        C:>  MWakeOnLan  00:2E:27:4B:20:34
+
+   Example 2: 
+
+        C:>  MWakeOnLan server1 server2
+
