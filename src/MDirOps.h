@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 
-//v1.18 copyright Comine.com 20140518U0936
+//v1.19 copyright Comine.com 20140609M1803
 #ifndef MDirOps_h
 #define MDirOps_h
 

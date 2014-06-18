@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 
-//v1.18 copyright Comine.com 20140518U0936
+//v1.19 copyright Comine.com 20140609M1803
 
 ///////////////////////////////////////
 #include "MStdLib.h"
@@ -74,6 +74,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 static const int GMaxDirLength=1000;
 
 ///////////////////////////////////////////////////////
+#if ( defined(MSTDLIB_OS_WINDOWS) )
 static bool GConvertToCanonicalPath(char *path)
 	{
 	MStdAssert(path!=NULL);
@@ -85,7 +86,7 @@ static bool GConvertToCanonicalPath(char *path)
 
 	return true;
 	}
-
+#endif //MSTDLIB_OS_WINDOWS
 
 //******************************************************
 //**  MDirOps class

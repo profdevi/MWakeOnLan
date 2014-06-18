@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 
-//v3.13 copyright Comine.com 20140421M1236
+//v3.14 copyright Comine.com 20140609M1803
 #ifndef MConfigFile_h
 #define MConfigFile_h
 

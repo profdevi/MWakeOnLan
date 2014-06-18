@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 
-//v3.13 copyright Comine.com 20140421M1236
+//v3.14 copyright Comine.com 20140609M1803
 #include "MStdLib.h"
 #include "MBuffer.h"
 #include "MString.h"
@@ -56,16 +56,6 @@ struct GStringData
 
 ///////////////////////////////////////////////////////////
 static GStringData GEndMarker={0,0,0};
-
-
-///////////////////////////////////////////////////////////
-static bool GIsAlphaNumeric(char ch)
-	{
-	if(ch>='a' && ch<='z') { return true; }
-	if(ch>='A' && ch<='Z') { return true; }
-	if(ch>='0' && ch<='9') { return true; }
-	return false;
-	}
 
 
 ///////////////////////////////////////////////////////////
